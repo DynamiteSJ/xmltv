@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Date>2016-01-28</Date>
+  <Beta>False</Beta>
+  <Category>MediaDB</Category>
+  <Name>XML Channel Server</Name>
+  <Project></Project>
+  <Changes>
+  </Changes>
+  <Overview>
+  </Overview>
+  <Description>
+  </Description>
+  <Registry>https://hub.docker.com/r/dynamitesj/xmltv/</Registry>
+  <GitHub>https://github.com/limetech/dockerapp-sync</GitHub>
+  <Repository>dynamitesj/xmltv</Repository>
+  <Support></Support>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8998</HostPort>
+        <ContainerPort>8998</ContainerPort>
+      </Port>
+      <Port>
+        <HostPort>8999</HostPort>
+        <ContainerPort>8999</ContainerPort>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/xmltv</HostDir>
+      <ContainerDir>/xmltv</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version></Version>
+  <Icon>http://icdn.pro/images/fr/t/e/television-tv-icone-8378-96.png</Icon>
+</Container>
