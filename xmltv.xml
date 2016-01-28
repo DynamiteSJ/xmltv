@@ -9,7 +9,7 @@
   </Changes>
   <Overview>
   </Overview>
-  <Description>
+  <Description> Send channel info/programming to HDHR Viewer 2 channel in a plex server.
   </Description>
   <Registry>https://hub.docker.com/r/dynamitesj/xmltv/</Registry>
   <GitHub>https://github.com/limetech/dockerapp-sync</GitHub>
@@ -33,7 +33,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/xmltv</HostDir>
+      <HostDir></HostDir>
       <ContainerDir>/xmltv</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
